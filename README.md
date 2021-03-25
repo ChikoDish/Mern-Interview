@@ -10,8 +10,6 @@ I'll try to add atleaat one question each day.
 
 ### React.Js
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
 <!--
 ```markdown
 Syntax highlighted code block
@@ -32,3 +30,9 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ``` -->
+
+```markdown
+# How does React work?
+
+- Bulleted React creates a virtual DOM. When state changes in a component it firstly runs a "diffing" algorithm, which identifies what has changed in the virtual DOM. The second step is reconciliation, where it updates the DOM with the results of diff.
+```
